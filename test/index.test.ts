@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { formatHost } from '../src/utils'
 
+
 describe('formatHost Function Tests', () => {
   it('should return default URL for empty string', () => {
     expect(formatHost('')).toBe('http://127.0.0.1:11434')
